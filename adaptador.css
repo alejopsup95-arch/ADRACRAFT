@@ -1,0 +1,111 @@
+
+/* =================================
+   ADRA CRAFT - PAGINA 1 EN CELULARES
+   ================================= */
+
+@media screen and (max-width: 600px) {
+
+    /* Evita que los elementos se salgan de la pantalla */
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        min-height: 100vh;
+        padding: 10px;
+        overflow-x: hidden;
+    }
+
+    /* Cajas generales */
+    div {
+        max-width: 100%;
+        margin: 12px auto;
+    }
+
+    .titulo {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        min-height: 80px;
+    }
+
+    .subtitulo {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        min-height: 180px;
+        padding: 15px;
+    }
+
+    .subtitulo1,
+    .subtitulo2,
+    .subtitulo3 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .bienvenido {
+        width: 100%;
+        height: auto;
+        min-height: 250px;
+    }
+
+    .bienvenido1 {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        min-height: 35px;
+    }
+
+    /* Botón o enlace */
+    .link {
+        position: static;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        min-height: 70px;
+        font-size: 28px;
+    }
+
+    /* Pie de página */
+    .footer {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /* Imágenes */
+    .logo,
+    .logo2 {
+        position: static;
+        display: block;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        max-height: 450px;
+        object-fit: contain;
+        margin: 15px auto;
+    }
+
+    /* Textos */
+    h1 {
+        max-width: 100%;
+        font-size: 28px;
+        overflow-wrap: break-word;
+    }
+
+    h3 {
+        font-size: 21px;
+        line-height: 1.5;
+        overflow-wrap: break-word;
+    }
+
+    h3 span {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+}
